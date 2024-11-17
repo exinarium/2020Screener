@@ -1,0 +1,24 @@
+{
+    "databaseConfig": {
+        "databaseName": "Users",
+        "collectionName": "Organization",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "apiMetrics": {
+        "applicationName": "PayfastApi",
+        "serverAddress": "http://prometheus-push:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://username:password@mongo:27017",
+            "databaseName": "Metrics",
+            "collectionName": "PayfastApi"
+        }
+    },
+    "payfastConfig": {
+        "url": "https://api.payfast.co.za",
+        "merchantId": "merchantId",
+        "merchantKey": "merchantKey",
+        "passphrase": "passphrase",
+        "payfastMainUrl": "https://www.payfast.co.za/eng/query/validate"
+    },
+    "roles": []
+}

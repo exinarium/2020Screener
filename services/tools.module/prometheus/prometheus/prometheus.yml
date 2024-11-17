@@ -1,0 +1,8 @@
+global: 
+  evaluation_interval: 15s
+  scrape_interval: 15s
+scrape_configs:
+- job_name: netcore-prometheus
+  honor_labels: true
+  static_configs: 
+  - targets: ['ip-address:9091']

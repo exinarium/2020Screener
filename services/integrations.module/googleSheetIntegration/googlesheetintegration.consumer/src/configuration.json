@@ -1,0 +1,20 @@
+{
+    "databaseConfig": {
+        "databaseName": "Users",
+        "collectionName": "Organization",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "messageBus": {
+        "connectionString": "mongodb://username:password@mongo:27017",
+        "topic": "GoogleSheetIntegrationEvent"
+    },
+    "apiMetrics": {
+        "applicationName": "GoogleSheetIntegrationConsumer",
+        "serverAddress": "http://prometheus-push:9091"
+    },
+    "googleConfig": {
+        "clientSecret": "clientSecret",
+        "clientId": "clientId",
+        "redirectUrl": "url"
+    }
+}

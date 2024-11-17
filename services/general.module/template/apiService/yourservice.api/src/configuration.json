@@ -1,0 +1,17 @@
+{
+    "databaseConfig": {
+        "databaseName": "YourServiceDatabase",
+        "collectionName": "YourServiceCollection",
+        "connectionString": "mongodb://creativ360:Ghost2411%23@ip-address:27017"
+    },
+    "apiMetrics": {
+        "applicationName": "YourServiceApi",
+        "serverAddress": "http://ip-address:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://creativ360:Ghost2411%23@ip-address:27017",
+            "databaseName": "Metrics",
+            "collectionName": "YourServiceApi"
+        }
+    },
+    "roles": []
+}

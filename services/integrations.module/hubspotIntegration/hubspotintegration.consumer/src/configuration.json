@@ -1,0 +1,15 @@
+{
+    "databaseConfig": {
+        "databaseName": "Users",
+        "collectionName": "Organization",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "messageBus": {
+        "connectionString": "mongodb://username:password@mongo:27017",
+        "topic": "HubspotIntegrationEvent"
+    },
+    "apiMetrics": {
+        "applicationName": "HubspotIntegrationConsumer",
+        "serverAddress": "http://prometheus-push:9091"
+    }
+}

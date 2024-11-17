@@ -1,0 +1,29 @@
+{
+    "databaseConfig": {
+        "databaseName": "Users",
+        "userCollectionName": "User",
+        "organizationCollectionName": "Organization",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "apiMetrics": {
+        "applicationName": "AuthenticationApi",
+        "serverAddress": "http://prometheus-push:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://username:password@mongo:27017",
+            "databaseName": "Metrics",
+            "collectionName": "AuthenticationApi"
+        }
+    },
+    "configurationDatabase": {
+        "databaseName": "CovidScreener",
+        "collectionName": "EncryptionKeys",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "tokenValidationOptions": {
+        "issuer": "Creativ360",
+        "subject": "CovidScreener",
+        "audience": "url",
+        "expiresIn": "12h",
+        "algorithm": "RS256"
+    }
+}

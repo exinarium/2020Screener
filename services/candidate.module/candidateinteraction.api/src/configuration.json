@@ -1,0 +1,17 @@
+{
+    "databaseConfig": {
+        "databaseName": "CandidateInteraction",
+        "collectionName": "CandidateInteraction",
+        "connectionString": "mongodb://username:password@mongo:27017"
+    },
+    "apiMetrics": {
+        "applicationName": "CandidateInteractionApi",
+        "serverAddress": "http://prometheus-push:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://username:password@mongo:27017",
+            "databaseName": "Metrics",
+            "collectionName": "CandidateInteractionApi"
+        }
+    },
+    "roles": []
+}

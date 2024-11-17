@@ -1,0 +1,1 @@
+docker run -d -p 9089:3000 --name=grafana -e "GF_SECURITY_ADMIN_PASSWORD=secret" --network covidscreener-network grafana/grafana

@@ -1,0 +1,12 @@
+{
+    "databaseConfig": {
+        "databaseName": "CovidScreener",
+        "collectionName": "ConnectionStrings",
+        "connectionString": "mongodb://creativ360:password@mongo:27017"
+    },
+    "topic": "AuditLogEvent",
+    "apiMetrics": {
+        "applicationName": "AuditLogConsumer",
+        "serverAddress": "http://prometheus-push:9091"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "apiMetrics": {
+        "applicationName": "GoogleSheetIntegrationApi",
+        "serverAddress": "http://prometheus-push:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://username:password@mongo:27017",
+            "databaseName": "Metrics",
+            "collectionName": "GoogleSheetIntegrationApi"
+        }
+    },
+    "roles": [],
+    "googleConfig": {
+        "clientSecret": "clientSecret",
+        "clientId": "clientId",
+        "redirectUrl": "url"
+    },
+    "connectionString": "mongodb://username:password@mongo:27017"
+}

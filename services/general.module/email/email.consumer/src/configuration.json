@@ -1,0 +1,13 @@
+{
+    "topic": "EmailEvent",
+    "connectionString": "mongodb://creativ360:password@mongo:27017",
+    "apiMetrics": {
+        "applicationName": "EmailConsumer",
+        "serverAddress": "http://mongo:9091"
+    },
+    "emailSettings": {
+        "user": "pieter.jordaan@creativ360.com",
+        "password": "sscudxtalsykyavo",
+        "service": "gmail"
+    }
+}

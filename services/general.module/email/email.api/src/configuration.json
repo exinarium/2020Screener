@@ -1,0 +1,15 @@
+{
+    "apiMetrics": {
+        "applicationName": "EmailApi",
+        "serverAddress": "http://mongo:9091",
+        "databaseConfig": {
+            "connectionString": "mongodb://username:password@mongo:27017",
+            "databaseName": "Metrics",
+            "collectionName": "EmailApi"
+        }
+    },
+    "roles": [],
+    "recaptchaSecret": "6Ld3McYZAAAAALvfhK8iZYSvKA8TT1-kPAXZ2Ma9",
+    "googleVerifyUrl": "https://www.google.com/recaptcha/api/siteverify",
+    "supportEmail": "support@creativ360.com"
+}
